@@ -1,0 +1,118 @@
+<mxfile host="app.diagrams.net" modified="2023-11-18T10:27:07.898Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.664 YaBrowser/23.9.5.664 Yowser/2.5 Safari/537.36" etag="u3GRsjEWR8mvZuCSZkHd" version="22.1.3" type="device">
+  <diagram name="Page-1" id="197159a0-c6a4-9194-75a8-e4174976684c">
+    <mxGraphModel dx="1242" dy="567" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" style=";html=1;" />
+        <mxCell id="1" style=";html=1;" parent="0" />
+        <mxCell id="1257a543d1cacc4b-43" value="&lt;b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Основная площадка (Головной офис)&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;fontSize=14;strokeColor=none;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="380" y="170" width="442" height="403" as="geometry" />
+        </mxCell>
+        <mxCell id="1257a543d1cacc4b-14" style="rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeColor=#808080;" parent="1" source="1257a543d1cacc4b-7" target="1257a543d1cacc4b-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1257a543d1cacc4b-39" style="edgeStyle=elbowEdgeStyle;rounded=0;elbow=vertical;html=1;startSize=10;endArrow=none;endFill=0;endSize=10;jettySize=auto;orthogonalLoop=1;strokeColor=#808080;fontSize=14;entryX=0.841;entryY=0.917;entryPerimeter=0;" parent="1" source="1257a543d1cacc4b-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="646.2840000000001" y="527.04" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="527" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1257a543d1cacc4b-7" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.veeam.2d.proxy;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="746" y="500" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="1257a543d1cacc4b-9" value="WAN" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;shape=mxgraph.veeam.2d.cloud;fontSize=14;align=center;" parent="1" vertex="1">
+          <mxGeometry x="920" y="647" width="66" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="1257a543d1cacc4b-52" value="Title" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="160" y="60" width="1420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1l4iYdkHeKNF5FEulhRi-1" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.virtual_host;" parent="1" vertex="1">
+          <mxGeometry x="538" y="414" width="132" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="1l4iYdkHeKNF5FEulhRi-4" value="&lt;b&gt;Сервисы VM1&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#6666FF;" parent="1" vertex="1">
+          <mxGeometry x="400" y="229" width="120" height="110" as="geometry">
+            <mxRectangle x="261" y="320" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1l4iYdkHeKNF5FEulhRi-5" value="&lt;p class=&quot;MsoCaption&quot;&gt;1C: УНФ, 1С: Бухгалтерия&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1l4iYdkHeKNF5FEulhRi-4" vertex="1">
+          <mxGeometry y="30" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1l4iYdkHeKNF5FEulhRi-7" value="&lt;p class=&quot;MsoCaption&quot;&gt;PostgresSQL&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1l4iYdkHeKNF5FEulhRi-4" vertex="1">
+          <mxGeometry y="80" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1l4iYdkHeKNF5FEulhRi-12" value="&lt;b&gt;Сервисы VM2&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#6666FF;" parent="1" vertex="1">
+          <mxGeometry x="681" y="229" width="120" height="80" as="geometry">
+            <mxRectangle x="261" y="320" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1l4iYdkHeKNF5FEulhRi-13" value="&lt;p class=&quot;MsoCaption&quot;&gt;Zabbix&lt;span style=&quot;font-size:11.0pt;line-height:115%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;&lt;br/&gt;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&lt;br/&gt;minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-bidi-theme-font:minor-bidi;mso-ansi-language:RU;mso-fareast-language:EN-US;&lt;br/&gt;mso-bidi-language:AR-SA&quot;&gt; 6.4&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1l4iYdkHeKNF5FEulhRi-12" vertex="1">
+          <mxGeometry y="30" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1l4iYdkHeKNF5FEulhRi-16" value="&lt;b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Резервная площадка (Склад)&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;fontSize=14;strokeColor=none;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="170" width="442" height="403" as="geometry" />
+        </mxCell>
+        <mxCell id="1l4iYdkHeKNF5FEulhRi-17" style="edgeStyle=elbowEdgeStyle;rounded=0;elbow=vertical;html=1;startSize=10;endArrow=none;endFill=0;endSize=10;jettySize=auto;orthogonalLoop=1;strokeColor=#808080;fontSize=14;entryX=0.841;entryY=0.917;entryPerimeter=0;" parent="1" source="1l4iYdkHeKNF5FEulhRi-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1316.284" y="527.04" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1060" y="527" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1l4iYdkHeKNF5FEulhRi-18" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.veeam.2d.proxy;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="500" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="1l4iYdkHeKNF5FEulhRi-19" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.virtual_host;" parent="1" vertex="1">
+          <mxGeometry x="1208" y="414" width="132" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="1257a543d1cacc4b-26" style="rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeColor=#808080;exitX=0.087;exitY=0.623;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="1l4iYdkHeKNF5FEulhRi-18" target="1257a543d1cacc4b-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1017.8037383177566" y="690.0000000000002" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uJkXkl3vV9MkAI77aQmQ-3" value="&lt;b&gt;Сервисы VM1&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="541" y="229" width="120" height="110" as="geometry">
+            <mxRectangle x="261" y="320" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uJkXkl3vV9MkAI77aQmQ-4" value="&lt;p class=&quot;MsoCaption&quot;&gt;Apache&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="uJkXkl3vV9MkAI77aQmQ-3">
+          <mxGeometry y="30" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="uJkXkl3vV9MkAI77aQmQ-5" value="&lt;p class=&quot;MsoCaption&quot;&gt;Java&lt;br/&gt;interpreter&lt;br&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="uJkXkl3vV9MkAI77aQmQ-3">
+          <mxGeometry y="62" width="120" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="uJkXkl3vV9MkAI77aQmQ-14" value="&lt;b&gt;Сервисы VM1&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="1077" y="229" width="120" height="110" as="geometry">
+            <mxRectangle x="261" y="320" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uJkXkl3vV9MkAI77aQmQ-15" value="&lt;p class=&quot;MsoCaption&quot;&gt;1C: УНФ, 1С: Бухгалтерия&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="uJkXkl3vV9MkAI77aQmQ-14">
+          <mxGeometry y="30" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uJkXkl3vV9MkAI77aQmQ-16" value="&lt;p class=&quot;MsoCaption&quot;&gt;PostgresSQL&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="uJkXkl3vV9MkAI77aQmQ-14">
+          <mxGeometry y="80" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uJkXkl3vV9MkAI77aQmQ-17" value="&lt;b&gt;Сервисы VM2&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="1358" y="229" width="120" height="80" as="geometry">
+            <mxRectangle x="261" y="320" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uJkXkl3vV9MkAI77aQmQ-18" value="&lt;p class=&quot;MsoCaption&quot;&gt;Zabbix&lt;span style=&quot;font-size:11.0pt;line-height:115%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;&lt;br/&gt;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&lt;br/&gt;minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-bidi-theme-font:minor-bidi;mso-ansi-language:RU;mso-fareast-language:EN-US;&lt;br/&gt;mso-bidi-language:AR-SA&quot;&gt; 6.4&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="uJkXkl3vV9MkAI77aQmQ-17">
+          <mxGeometry y="30" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uJkXkl3vV9MkAI77aQmQ-19" value="&lt;b&gt;Сервисы VM1&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="1218" y="229" width="120" height="110" as="geometry">
+            <mxRectangle x="261" y="320" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uJkXkl3vV9MkAI77aQmQ-20" value="&lt;p class=&quot;MsoCaption&quot;&gt;Apache&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="uJkXkl3vV9MkAI77aQmQ-19">
+          <mxGeometry y="30" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="uJkXkl3vV9MkAI77aQmQ-21" value="&lt;p class=&quot;MsoCaption&quot;&gt;Java&lt;br/&gt;interpreter&lt;br&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="uJkXkl3vV9MkAI77aQmQ-19">
+          <mxGeometry y="62" width="120" height="48" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
